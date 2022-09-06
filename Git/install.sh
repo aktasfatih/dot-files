@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -F -s ~/$DOT_FILES/Git/.gitconfig ~/.gitconfig
+ln -F -s $(pwd)/.gitconfig ~/.gitconfig
