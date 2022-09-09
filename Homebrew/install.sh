@@ -34,6 +34,31 @@ brew install python
 brew install z
 brew install jq
 
+brew install pyenv
+# TODO: Add this to bash profile for pyenv
+# echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+
+brew install jupyter
+
+# VM stuff
+# Install hyperkit and minikube
+brew install hyperkit
+brew install minikube
+
+# Install Docker CLI
+brew install docker
+brew install docker-compose
+
+# Start minikube
+minikube start
+
+# Tell Docker CLI to talk to minikube's VM
+eval $(minikube docker-env)
+
+# Save IP to a hostname
+echo "`minikube ip` docker.local" | sudo tee -a /etc/hosts > /dev/null
+
+
 # Install Apps
 # ------------
 brew install --cask spotify

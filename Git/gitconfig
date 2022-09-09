@@ -1,0 +1,7 @@
+[core]
+	excludesfile = /Users/fatihaktas/.gitignore
+[user]
+	email = akfatih2@gmail.com
+	name = Fatih Aktas
+[init]
+	defaultBranch = main
