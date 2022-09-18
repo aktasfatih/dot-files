@@ -110,10 +110,10 @@ alias vct='ssh vct'
 alias mm='cd ~/Desktop/Projects/mm_website'
 
 # Absolute path to this script. /home/user/bin/foo.sh
-SCRIPT=$(readlink -f $0)
+#SCRIPT=$(readlink -f $0)
 
 # TODO: Add an alias for updating repo
-alias updateDotFilesRepo="cd $SCRIPT; cd ../; ./updateRepo; cd SCRIPT;"
+# alias updateDotFilesRepo="cd $SCRIPT; cd ../; ./updateRepo; cd SCRIPT;"
 
 export CLOUDSDK_PYTHON_SITEPACKAGES=1
 
