@@ -114,3 +114,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 source $HOME/.aliases
 . /opt/homebrew/etc/profile.d/z.sh
+
+# For developing rubg
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

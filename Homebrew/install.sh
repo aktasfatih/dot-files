@@ -33,6 +33,7 @@ brew install ripgrep
 brew install python
 brew install z
 brew install jq
+brew install Neovim
 
 brew install pyenv
 # TODO: Add this to bash profile for pyenv
