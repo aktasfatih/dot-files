@@ -108,6 +108,13 @@ source $ZSH/oh-my-zsh.sh
 alias pp='~/Desktop/Projects'
 alias vct='ssh vct'
 alias mm='cd ~/Desktop/Projects/mm_website'
+
+# Absolute path to this script. /home/user/bin/foo.sh
+SCRIPT=$(readlink -f $0)
+
+# TODO: Add an alias for updating repo
+alias updateDotFilesRepo="cd $SCRIPT; cd ../; ./updateRepo; cd SCRIPT;"
+
 export CLOUDSDK_PYTHON_SITEPACKAGES=1
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
