@@ -13,6 +13,7 @@
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 
+brew install rbenv ruby-build
 brew install zsh
 brew install coreutils
 brew install gnu-sed
